@@ -11,7 +11,7 @@ This Python code visualizes the process of bubble sort using a bar chart. The co
        This function implements the bubble sort algorithm.
        It iterates over the list of data, comparing adjacent elements and swapping them if they are in the wrong order.
        After each swap, the current state of the data is displayed using a bar chart, with the bars temporarily colored yellow to indicate an ongoing operation and then green after the comparison.
-       plt.pause(0.2) is used to slow down the visualization to see the sorting process, and `plt.clf()` clears the figure to prepare for the next frame.
+       plt.pause(0.2) is used to slow down the visualization to see the sorting process, and plt.clf() clears the figure to prepare for the next frame.
        generate_data(size):
        This function generates a list of random integers between 1 and 100, with the size specified by the size parameter.
 
